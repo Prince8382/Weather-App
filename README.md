@@ -3,6 +3,7 @@
 A simple React Weather App that shows temperature, humidity, min/max temp, feels-like, and weather description using the OpenWeather API.
 
 #Features
+
  Search weather by city name
  Shows temperature, humidity, min/max
  Feels like temperature
