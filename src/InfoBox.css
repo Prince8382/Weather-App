@@ -1,0 +1,76 @@
+/* InfoBox.css */
+
+.InfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #f5f7fa; /* light background for contrast */
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.InfoBox h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.MuiCard-root {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px; /* rounded corners */
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.MuiCardMedia-root {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.MuiTypography-h5 {
+  font-weight: 600;
+  color: #1976d2; /* primary blue */
+}
+
+.MuiTypography-body2 p {
+  margin: 0.4rem 0;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.MuiTypography-body2 i {
+  color: #1976d2;
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .InfoBox h1 {
+    font-size: 1.6rem;
+  }
+
+  .MuiCard-root {
+    width: 90%;
+  }
+}
