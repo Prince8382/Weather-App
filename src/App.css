@@ -40,16 +40,13 @@
 .read-the-docs {
   color: #888;
 }
-
-/* App.css ya ek wrapper CSS */
-
 .AppWrapper {
   display: flex;
-  flex-direction: column; /* ya row, agar side by side chahiye */
-  align-items: center;    /* horizontal center */
-  justify-content: center; /* vertical center */
-  min-height: 100vh;      /* screen height ke hisaab se center */
-  background: #f0f2f5;    /* light background */
+  flex-direction: column; 
+  align-items: center;   
+  justify-content: center; 
+  min-height: 100vh;     
+  background: #f0f2f5;    
   padding: 1rem;
   gap: 1rem;
 }
