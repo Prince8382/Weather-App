@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: #f5f7fa; /* light background for contrast */
+  background: #f5f7fa; 
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
@@ -29,7 +29,7 @@
 
 .MuiCard-root {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 12px; /* rounded corners */
+  border-radius: 12px; 
 }
 
 .MuiCard-root:hover {
